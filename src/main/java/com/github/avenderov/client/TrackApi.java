@@ -19,5 +19,4 @@ public interface TrackApi {
 
     @RequestLine("GET /tracks/{id}")
     Track track(@Param("id") UUID id);
-
 }
